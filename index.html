@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="maindiv">
+        <h2>Contact List:</h2>
+        
+        <div class="contenir">
+            
+            <input type="text" class="search" id="search-inp" placeholder="Search Contact" onchange="searchHandle(event)">
+            
+            <button class="search-btn"  id="search-inp-btn">&#x027A4;</button>
+            
+        </div>
+        
+        <div id="searchList"></div>
+        
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>
